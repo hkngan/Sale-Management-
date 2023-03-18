@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Playball';
+    opacity: .95;
+}
+form {
+    width: 80%;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 11%, 38%, 0.31);
+    padding: 5%;
+    background-color: rgb(243, 197, 197);
+}
+
+header {
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Playball';
+    color: #3e403f;
+    letter-spacing: 0.05em;
+}
+input:focus {
+        transform: translateX(-2px);
+        border-radius: 5px;
+}
+label{
+    margin-left: 40px;
+}
+
+input[class="form-input"]{
+    font-family: 'Abel', sans-serif;
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px 90px 5px 340px;
+    font-size: 20px;
+    color: #3d424f;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s linear;
+    
+}
+button {
+    display: inline-block;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: #252537;
+    width: 130px;
+    height: 50px;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin: 10px 10px 10px 350px;
+    letter-spacing: 0.1em;
+}
+
+button:hover {
+    transform: translatey(3x);
+    box-shadow: none;
+    animation: ani9 0.4s ease-in-out infinite alternate;
+    background-color: #bd8193;
+}
+lable[class="form-input"]{
+    margin: 10px 100px 5px 350px;
+}

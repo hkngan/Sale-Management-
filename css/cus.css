@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+   
+html, body{
+    /* background-color: rgb(249, 216, 216); */
+    font-family: 'Abel', sans-serif;
+}
+.container-fluid{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Abel', sans-serif;
+    width: 80%;
+    min-height: 500px;
+    height: auto;
+    border-radius: 15px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 11%, 38%, 0.31);
+    padding: 2%;
+}
+
+button {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-left: 50%;
+    margin: 10px 10px 10px 10px;
+    letter-spacing: 0.1em;
+}
+button:hover {
+    transform: translatey(3x);
+    box-shadow: none;
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
